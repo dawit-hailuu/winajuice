@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fresh, premium juice-bar palette */
+    --background: 44 60% 97%;          /* warm cream */
+    --foreground: 158 35% 12%;         /* deep forest */
+
+    --card: 0 0% 100%;
+    --card-foreground: 158 35% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 158 35% 12%;
+
+    --primary: 152 50% 24%;            /* deep forest green */
+    --primary-foreground: 44 60% 97%;
+    --secondary: 145 40% 92%;          /* pale leaf */
+    --secondary-foreground: 152 50% 24%;
+    --muted: 44 30% 94%;
+    --muted-foreground: 158 12% 40%;
+    --accent: 16 78% 55%;              /* coral-orange */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 145 25% 88%;
+    --input: 145 25% 88%;
+    --ring: 152 50% 24%;
+
+    --radius: 1rem;
+
+    /* Brand */
+    --leaf: 145 60% 40%;
+    --citrus: 24 90% 58%;
+    --sunshine: 42 95% 62%;
+    --coral: 8 78% 60%;
+    --cream: 44 60% 97%;
+  }
+
+  .dark {
+    --background: 158 30% 7%;
+    --foreground: 44 60% 95%;
+    --card: 158 28% 10%;
+    --card-foreground: 44 60% 95%;
+    --popover: 158 28% 10%;
+    --popover-foreground: 44 60% 95%;
+    --primary: 145 55% 55%;
+    --primary-foreground: 158 30% 7%;
+    --secondary: 158 25% 15%;
+    --secondary-foreground: 44 60% 95%;
+    --muted: 158 25% 15%;
+    --muted-foreground: 44 20% 65%;
+    --accent: 16 78% 60%;
+    --accent-foreground: 158 30% 7%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 158 25% 18%;
+    --input: 158 25% 18%;
+    --ring: 145 55% 55%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  html { scroll-behavior: smooth; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+
+  /* Subtle grain texture */
+  .bg-grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Scroll-aware fade reveals */
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Hide scrollbar but allow scroll */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}

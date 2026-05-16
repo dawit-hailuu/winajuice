@@ -1,0 +1,217 @@
+[
+  {
+    "id": "avocado-juice",
+    "name": "Avocado Juice",
+    "amharicName": "የአቮካዶ ጁስ",
+    "category": "Fresh Juices",
+    "price": 180,
+    "ingredients": ["Avocado", "Milk", "Honey"],
+    "benefits": ["Rich in healthy fats", "Loaded with potassium", "Source of vitamins E & K"],
+    "image": "🥑",
+    "popular": true,
+    "description": "Our signature creamy avocado classic — a Wina favorite for over a decade."
+  },
+  {
+    "id": "mango-juice",
+    "name": "Mango Juice",
+    "amharicName": "የማንጎ ጁስ",
+    "category": "Fresh Juices",
+    "price": 100,
+    "ingredients": ["Fresh mango", "Water", "Sugar"],
+    "benefits": ["High in vitamin A & C", "Boosts immunity", "Supports eye health"],
+    "image": "🥭",
+    "popular": true
+  },
+  {
+    "id": "orange-juice",
+    "name": "Orange Juice",
+    "amharicName": "የብርቱካን ጁስ",
+    "category": "Fresh Juices",
+    "price": 80,
+    "ingredients": ["Fresh oranges"],
+    "benefits": ["Packed with vitamin C", "Great for skin", "Supports immune system"],
+    "image": "🍊"
+  },
+  {
+    "id": "papaya-juice",
+    "name": "Papaya Juice",
+    "amharicName": "የፓፓያ ጁስ",
+    "category": "Fresh Juices",
+    "price": 90,
+    "ingredients": ["Papaya", "Lemon", "Ginger"],
+    "benefits": ["Aids digestion", "Anti-inflammatory", "Rich in vitamin C"],
+    "image": "🍈"
+  },
+  {
+    "id": "watermelon-juice",
+    "name": "Watermelon Juice",
+    "category": "Fresh Juices",
+    "price": 70,
+    "ingredients": ["Fresh watermelon", "Mint", "Lime"],
+    "benefits": ["Hydrating", "Lycopene-rich", "Good for heart health"],
+    "image": "🍉",
+    "popular": true
+  },
+  {
+    "id": "guava-juice",
+    "name": "Guava Juice",
+    "category": "Fresh Juices",
+    "price": 85,
+    "ingredients": ["Guava", "Lime", "Honey"],
+    "benefits": ["Excellent fiber source", "High in vitamin C", "Supports digestion"],
+    "image": "🍐"
+  },
+  {
+    "id": "beetroot-juice",
+    "name": "Beetroot Juice",
+    "category": "Fresh Juices",
+    "price": 110,
+    "ingredients": ["Beetroot", "Ginger", "Apple"],
+    "benefits": ["Lowers blood pressure", "Boosts stamina", "Rich in iron"],
+    "image": "🫐"
+  },
+  {
+    "id": "carrot-ginger",
+    "name": "Carrot & Ginger",
+    "category": "Fresh Juices",
+    "price": 100,
+    "ingredients": ["Carrot", "Ginger", "Lemon"],
+    "benefits": ["Improves eyesight", "Anti-inflammatory", "Naturally detoxifying"],
+    "image": "🥕"
+  },
+  {
+    "id": "pineapple-juice",
+    "name": "Pineapple Juice",
+    "category": "Fresh Juices",
+    "price": 90,
+    "ingredients": ["Fresh pineapple", "Mint"],
+    "benefits": ["Contains bromelain", "Aids digestion", "Reduces inflammation"],
+    "image": "🍍"
+  },
+  {
+    "id": "avocado-mango-mix",
+    "name": "Avocado-Mango Mix",
+    "amharicName": "ስፕሪስ",
+    "category": "Smoothies",
+    "price": 200,
+    "ingredients": ["Avocado", "Mango", "Milk", "Honey"],
+    "benefits": ["Protein-rich", "Energy booster", "Loaded with vitamins"],
+    "image": "🥤",
+    "popular": true,
+    "description": "Ethiopian-style spris — layered, beautiful, and irresistible."
+  },
+  {
+    "id": "strawberry-smoothie",
+    "name": "Strawberry Smoothie",
+    "category": "Smoothies",
+    "price": 180,
+    "ingredients": ["Strawberry", "Banana", "Yogurt", "Honey"],
+    "benefits": ["Antioxidant-rich", "Boosts mood", "Good for skin"],
+    "image": "🍓",
+    "popular": true
+  },
+  {
+    "id": "green-detox",
+    "name": "Green Detox Smoothie",
+    "category": "Smoothies",
+    "price": 160,
+    "ingredients": ["Spinach", "Cucumber", "Apple", "Lemon"],
+    "benefits": ["Alkalizing", "Naturally detoxifying", "Iron & fiber rich"],
+    "image": "🌿"
+  },
+  {
+    "id": "banana-pb",
+    "name": "Banana Peanut Butter",
+    "category": "Smoothies",
+    "price": 190,
+    "ingredients": ["Banana", "Peanut butter", "Milk", "Oats"],
+    "benefits": ["High protein", "Sustained energy", "Muscle-friendly"],
+    "image": "🍌"
+  },
+  {
+    "id": "berry-blast",
+    "name": "Mixed Berry Blast",
+    "category": "Smoothies",
+    "price": 210,
+    "ingredients": ["Blueberry", "Raspberry", "Yogurt", "Honey"],
+    "benefits": ["Antioxidant powerhouse", "Anti-aging", "Brain-boosting"],
+    "image": "🫐"
+  },
+  {
+    "id": "tropical-paradise",
+    "name": "Tropical Paradise",
+    "category": "Smoothies",
+    "price": 195,
+    "ingredients": ["Mango", "Pineapple", "Coconut milk", "Lime"],
+    "benefits": ["Electrolyte-rich", "Immune-boosting", "Refreshing"],
+    "image": "🌴"
+  },
+  {
+    "id": "ethiopian-salad",
+    "name": "Ethiopian Fruit Salad",
+    "amharicName": "የፍራፍሬ ሰላጣ",
+    "category": "Fruit Salads",
+    "price": 150,
+    "ingredients": ["Mango", "Papaya", "Banana", "Avocado", "Orange"],
+    "benefits": ["Complete vitamin profile", "Fiber-rich", "Naturally sweet"],
+    "image": "🍱",
+    "popular": true
+  },
+  {
+    "id": "tropical-bowl",
+    "name": "Tropical Fruit Bowl",
+    "category": "Fruit Salads",
+    "price": 130,
+    "ingredients": ["Watermelon", "Mango", "Pineapple", "Kiwi"],
+    "benefits": ["Hydrating", "Vitamin C powerhouse", "Digestive aid"],
+    "image": "🥗"
+  },
+  {
+    "id": "avocado-toast",
+    "name": "Avocado Toast & Egg",
+    "category": "Breakfast Items",
+    "price": 120,
+    "ingredients": ["Whole grain toast", "Avocado", "Egg", "Tomato"],
+    "benefits": ["Protein + healthy fats", "Perfect morning fuel", "Long-lasting energy"],
+    "image": "🍳",
+    "popular": true
+  },
+  {
+    "id": "granola-parfait",
+    "name": "Granola Honey Parfait",
+    "category": "Breakfast Items",
+    "price": 140,
+    "ingredients": ["Greek yogurt", "Granola", "Honey", "Fresh berries"],
+    "benefits": ["Probiotic-rich", "High calcium", "Loaded with antioxidants"],
+    "image": "🫙"
+  },
+  {
+    "id": "ethiopian-coffee",
+    "name": "Ethiopian Coffee (Buna)",
+    "amharicName": "ቡና",
+    "category": "Hot Drinks",
+    "price": 50,
+    "ingredients": ["Fresh-roasted Ethiopian beans"],
+    "benefits": ["Rich in antioxidants", "Improves alertness", "Boosts mood"],
+    "image": "☕",
+    "popular": true
+  },
+  {
+    "id": "ginger-tea",
+    "name": "Ginger Lemon Tea",
+    "category": "Hot Drinks",
+    "price": 60,
+    "ingredients": ["Fresh ginger", "Lemon", "Honey"],
+    "benefits": ["Immune-boosting", "Anti-nausea", "Warming and soothing"],
+    "image": "🍵"
+  },
+  {
+    "id": "cinnamon-milk",
+    "name": "Cinnamon Spice Milk",
+    "category": "Hot Drinks",
+    "price": 80,
+    "ingredients": ["Warm milk", "Cinnamon", "Honey", "Cardamom"],
+    "benefits": ["Calming", "Bone-strengthening", "Anti-inflammatory"],
+    "image": "🥛"
+  }
+]

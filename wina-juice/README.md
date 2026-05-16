@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🥤 Wina Juice ዊና ጁስ — Website
 
 A modern, premium, mobile-first website for **Wina Juice**, a juice house in Summit Fiyel Bet, Addis Ababa.
@@ -241,6 +240,3 @@ This project is delivered as a custom build for Wina Juice. Reuse and adaptation
 ---
 
 Made with 🍊 in Addis Ababa.
-=======
-"# winajuice" 
->>>>>>> 43c7b262647fa807d4c57052e961335de579bad1

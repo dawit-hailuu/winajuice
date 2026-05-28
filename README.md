@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # 🥤 Wina Juice ዊና ጁስ — Website
-
+this is ma first change ddd
 A modern, premium, mobile-first website for **Wina Juice**, a juice house in Summit Fiyel Bet, Addis Ababa.
 
 Built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
